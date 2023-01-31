@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap-theme.min.css"
+        integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<style>
+    .B1 {
+        width: 1300px;
+        background-color: #d5eff7;
+        border-radius: 12px;
+        margin-top: 20px;
+        flex-wrap: wrap;
+    }
+
+
+    .container-1 {
+        margin-top: 20px;
+        display: flex;
+        background-color: white;
+        justify-content: space-around;
+        border-radius: 10px;
+        flex-wrap: wrap;
+
+
+
+    }
+
+    .nav-bar-1 {
+        flex: 1;
+        margin-left: 20px;
+        flex-wrap: wrap;
+
+    }
+
+    .nav-bar-2 li {
+        margin-top: 25px;
+        margin-left: 35px;
+        display: inline-block;
+        cursor: pointer;
+        flex: 3;
+        font-weight: bold;
+        font-size: 17px;
+        flex-wrap: wrap;
+
+    }
+
+    .nav-bar-2 li:hover{
+        color: #4789ff;
+    }
+
+    .nav-bar-3 {
+        flex: 2;
+
+
+    }
+
+    .logo {
+        width: 100%;
+        margin-top: 5px;
+    }
+
+    .btn {
+        margin: auto;
+    margin-right: 20px;
+    background-color: #4789ff;
+    border: none;
+    color: white;
+
+    }
+
+    .btn:hover{
+      background-color: #4574c5;
+    }
+    .container-3{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        
+    }
+
+    .box-1{
+     flex: 1;
+     
+     
+    }
+    .box-2{
+        flex: 1;
+        align-items: center;
+        margin-top: 40px;
+        margin-bottom: 28px;
+    }
+    .img-2{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+       
+    }
+    .container-2{
+        display: flex;
+        margin-top: 20px;
+        flex-wrap: wrap;
+       
+    }
+    .box-21{
+        flex: 4;
+        font-weight: bolder;
+        font-size: 20px;
+
+    }
+    .box-22{
+        flex: 1;
+        justify-content: flex-end;
+        font-size: 15px;
+      
+       
+    }
+    .container-3{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+        flex-wrap: wrap;
+        
+    }
+    .box-23{
+        flex: 1;
+        border: 1px solid black;
+        margin-left: 10px;
+        border-radius: 10px;
+      padding: 10px;
+    }
+    .box-24{
+        flex: 1;
+        border: 1px solid black;
+        margin-left: 20px;
+        border-radius: 10px;
+        padding: 10px;
+    }
+    .box-25{
+        flex: 1;
+        border: 1px solid black;
+        margin-left: 20px;
+        border-radius: 10px;
+        padding: 10px;
+       
+}
+ .B3 {
+        display: flex;
+        background-color: #d5eff7;
+        border-radius: 12px;
+        margin-top: 20px;
+        flex-wrap: wrap;
+    }
+    .box-31{
+        flex: 1;
+        margin-top: 120px;
+        margin-left: 20px;
+
+    }
+    .box-32{
+        flex: 1;
+
+    }
+    .B4{
+        display: flex;
+        margin-top: 40px;
+        flex-wrap: wrap;
+    }
+    .box-41{
+        flex: 3;
+        font-size: 20px;
+
+    }
+    .box-42{
+        flex: 1;
+        font-size: 20px;
+
+    }
+    .box-43{
+        flex: 1;
+        font-size: 20px;
+
+    }
+    .box-44{
+        flex: 1;
+        font-size: 20px;
+
+    }
+   
+   
+</style>
+
+<body>
+
+    <div class="container B1">
+        <div class="container-1">
+            <div class="nav-bar-1">
+
+                <img class="logo" src="logo.png" alt="">
+            </div>
+            <div class="nav-bar-2">
+                <ul class="nav-info">
+                    <li>Subscription</li>
+                    <li>Challenges</li>
+                    <li>Blog</li>
+                </ul>
+            </div>
+            <div class="nav-bar-3"></div>
+            <button class="btn ">
+              <ion-icon class="icon-github fa-2px" name="logo-github" size="large"></ion-icon>
+                <b>Login with Github</b>
+             </button>
+        </div>
+
+        <div class="container-3">
+            <div class="box-1">
+                <h2 style="font-size: 50px; margin-top: 80px;"><b> your HTML and CSS skills by practicing on real design templates.</b></h2>
+                <p style="font-size: 19px;margin-top: 50px;"><b>With Codewell, you can browse high quality Figma templates that you can use to sharpen your HTML and
+                    CSS skills.</b></p>
+                    <p style="font-size: 19px;margin-top: 40px;"><ion-icon name="checkmark-circle-outline" size="large"></ion-icon>
+                            <b>New templates every week.</b></p>
+                         <p style="font-size: 19px;"><ion-icon name="checkmark-circle-outline" size="large"></ion-icon><b> Access to Slack channel, even for unpaid members.</b></p>
+                         <p style="font-size: 19px;"><ion-icon name="checkmark-circle-outline" size="large"></ion-icon><b> All assets are included in all templates.
+                        </b></p>
+
+                    </ul>
+                    <div style="margin-top: 90px; margin-left: 80px;">
+                    <button class="btn ">
+                        <ion-icon class="icon-github fa-2px" name="logo-github" size="large"></ion-icon>
+                          <b>Login with Github</b>
+                       </button>
+                       <img src="arrow.png" alt="">
+                       </div>
+            </div>
+            <div class="box-2">
+                <img class="img-2" src="create-profit.png" alt="">
+            </div>
+
+        </div>
+        </div>
+         <div class="container B2">
+        <div class="container-2">
+            <div class="box-21">Challenges</div>
+            <div class="box-22"><u>View All Challenges →</u></div>
+
+        </div>
+        <div class="container-3">
+            <div class="box-23">
+                <img src="Capture1.png" alt="">
+                <h3>Javascript30 Navbar</h3><p>
+                Perfect to practice day 22 of Wes Bos's Javascript 30 course, a follow along navbar.</p>
+            <button class="btn" style="width:90%";>View Challenges →</button></div>
+            <div class="box-24">
+                <img src="Capture2.png" alt="">
+                <h3>Javascript30 Navbar</h3><p>
+                Perfect to practice day 22 of Wes Bos's Javascript 30 course, a follow along navbar.</p>
+            <button class="btn" style="width:90%";>View Challenges →</button></div>
+            <div class="box-25">
+                <img src="Capture3.png" alt="">
+                <h3>Javascript30 Navbar</h3><p>
+                Perfect to practice day 22 of Wes Bos's Javascript 30 course, a follow along navbar.</p>
+            <button class="btn" style="width:90%";>View Challenges →</button></div>
+            
+
+        </div>
+        <div class="container B3">
+          
+            <div class="box-31">
+                <img src="slack-logo.png" alt="" style="width:50% ;">
+                <h3>Join Our Slack Channel</h3><p>
+                    Chat and discuss solutions with a growing community of developers.</p>
+                    <button class="btn">Join Our Community</button>
+            </div>
+            <div class="box-32">
+               
+                <img src="image-1.png" alt="" style="width:100% ;">
+            </div>
+   
+
+        </div>
+        <div class="container B4">
+          
+            <div class="box-41">
+                <img class="logo" src="logo.png" alt="" style="width: 50%;"><br>
+                logo
+                With Codewell, you can browse high quality Figma templates that you can use to sharpen your HTML and CSS skills
+            </div>
+            <div class="box-42">
+                <b>Codewell</b><br>
+                Pro Subscription
+            </div>
+            <div class="box-43">
+                <b>Community</b><br>
+                Slack Channel<br>
+                Blog
+             
+            </div>
+            <div class="box-44">
+                <b>Resources</b><br>
+                Privacy Policy<br>
+                Terms & Conditions<br>
+                Contact Us
+             
+            </div>
+   
+
+        </div>
+    </div>
+
+
+  
+
+
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+
+</body>
+
+</html>
